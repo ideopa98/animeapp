@@ -1,0 +1,49 @@
+.media {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    padding: 2px;
+    margin: 5px 0;
+    background-color: cornflowerblue;
+    border-radius: 10px;
+    position: relative;
+    font-family:serif;
+ 
+    margin: 25px;
+    
+    box-shadow: 0px 5px 25px indigo;;
+  }
+  
+  .media:hover {
+   background-color:indigo;
+    color: beige;
+    transition: 0.75s;
+  }
+  
+  @media (max-width: 550px) {
+    .media {
+      width: 46%;
+    }
+  }
+  
+  .poster {
+    border-radius: 10px;
+  }
+  
+  .title {
+    width: 100%;
+    /* text-align: center; */
+    font-size: 17px;
+    padding: 5px 0;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  
+  .subTitle {
+    display: flex;
+    /* justify-content: space-between; */
+    padding-bottom: 3px;
+    padding: 0 px;
+    margin-left: 10px;
+    font-family:serif;
+  }

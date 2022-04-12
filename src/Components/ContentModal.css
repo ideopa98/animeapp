@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+.Content_landscape {
+  object-fit: contain;
+  border-radius: 60px;
+  width:70%;
+}
+
+.Content_portrait {
+  display: none;
+  object-fit: contain;
+  border-radius: 10px;
+}
+.ContentModal {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+  overflow-y: scroll;
+  scrollbar-width: none;
+}
+.ContentModal::-webkit-scrollbar {
+  display: none;
+}
+.ContentModal_about {
+  padding: 10px;
+  width: 95%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto", sans-serif;
+  justify-content: space-evenly;
+  font-weight: 300;
+}
+.ContentModal_title {
+  height: 12%;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  
+}
+.japanese_title{
+  display: flex;
+ margin-left: 20px;
+  border-radius: 20px;
+  scrollbar-width: thin; /* Firefox */
+  box-shadow: inset 0 0 5px #000000;
+  text-align: justify;
+}
+.director{
+  display: flex;
+  margin-left: 20px;
+  border-radius: 20px;
+  scrollbar-width: thin; /* Firefox */
+  box-shadow: inset 0 0 5px #000000;
+  text-align: justify;
+}
+.ContentModal_description {
+  display: flex;
+  height: 40%;
+  overflow-y: scroll;
+  padding: 15px;
+  border-radius: 20px;
+  scrollbar-width: thin; /* Firefox */
+  box-shadow: inset 0 0 5px #000000;
+  text-align: justify;
+  font-size: 25px;
+}
+.ContentModal_description::-webkit-scrollbar {
+  display: none;
+}
+.date_time{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+  
+}
+
+
+
+
+.button-64 {
+  align-items: center;
+  background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 20px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding:6px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+ 
+}
+
+.button-64:active,
+.button-64:hover {
+  outline: 0;
+}
+
+.button-64 span {
+  background-color: rgb(5, 6, 45);
+  padding: 5px 15px;
+  border-radius: 6px;
+  width: 90%;
+  height: 100%;
+  transition: 300ms;
+ 
+}
+
+.button-64:hover span {
+  background: none;
+}
+
+@media (min-width: 768px) {
+  .button-64 {
+    font-size: 30px;
+    min-width: 196px;
+  }
+}
